@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Entities
 {
+    [Table("TB_APP_USER")]
     public class ApplicationUser : IdentityUser
     {
         [Column("USER_CPF")]
